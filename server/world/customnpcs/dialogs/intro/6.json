@@ -1,0 +1,89 @@
+{
+    "AvailabilityQuestId": -1,
+    "DialogAlignment": 0b,
+    "DialogHideNPC": 0b,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "RenderGradual": 0b,
+    "OptionOffsetX": 0,
+    "OptionOffsetY": 0,
+    "OptionFactions1": -1,
+    "TextOffsetX": 0,
+    "OptionFactions2": -1,
+    "TextOffsetY": 0,
+    "AvailabilityFaction2Id": -1,
+    "TitlePos": 0,
+    "OptionFaction1Points": 100,
+    "TitleColor": 14737632,
+    "DialogDisableEsc": 0b,
+    "ShowOptionLine": 1b,
+    "AvailabilityFaction": 0,
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "Color": 14737632,
+    "Images": [
+    ],
+    "NPCScale": 1.0f,
+    "TextSound": "minecraft:random.wood_click",
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "TextPitch": 1.0f,
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "AvailabilityQuest3Id": -1,
+    "NPCOffsetY": 0,
+    "AvailabilityDialog3Id": -1,
+    "NPCOffsetX": 0,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogShowWheel": 1b,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 4,
+                "Title": "Volver",
+                "DialogColor": 5894435,
+                "OptionType": 1
+            }
+        }
+    ],
+    "TextHeight": 400,
+    "OptionSpaceX": 0,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "OptionSpaceY": 0,
+    "TitleOffsetY": 0,
+    "TitleOffsetX": 0,
+    "ModRev": 22,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "AvailabilityDayTime": 0,
+    "DialogDarkScreen": 1b,
+    "TextWidth": 300,
+    "DialogTitle": "Como iniciar",
+    "PreviousBlocks": 1b,
+    "DialogText": "Para empezar en la V podras escojer tu raza, aspecto y genero, junto con tu tipo de poder y claseIMPORTANTE si escojes de tipo de poder natural no tendras ki, sera lo mismo que jugar minecraft vanillaClasesGuerrero: centrado en el cuerpo a cuerpo, posee menos kiEspiritualista: centrado en el uso de ki, menor daño a melee, pero tiene mas ki y manejo de esteArtista Marcial: es la opcion neutral, no ni bueno a melee ni bueno en ki, un punto intermedioLuego de esto ya tendras tu barra de ki, la de vida y estamina, las teclas importantes son la C para cargar ki, V para abrir el menu, G para transformarte, H para destransformate, fn2, esta es para lanzar tecnicas de ki y abrir el menu de cosmeticos y pesas(para encontrar esta busca en controles y asignala a la que te quede mas comoda), F4 esta se usa para activar el scooter y alternar el sentir ki",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1725081459987L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}

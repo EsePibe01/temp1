@@ -1,0 +1,80 @@
+[03:01:01] [Server thread/INFO]: Server Backup started!
+[03:01:02] [Server thread/INFO]: Turned off world auto-saving
+[03:01:02] [Server thread/INFO]: Saving...
+[03:01:02] [Server thread/INFO]: Saved the world
+[03:01:10] [Thread-23/INFO]: Server backup done in 00:00:07! (22.4MB | 87.6MB)
+[03:01:11] [Server thread/INFO]: Turned on world auto-saving
+[14:03:05] [Server thread/INFO]: Server Backup started!
+[14:09:19] [Server thread/INFO]: nub1611[/127.0.0.1:52921] logged in with entity id 706170 at (77.94400491947678, 217.0, 13.152526809541913)
+[14:09:19] [Server thread/INFO]: nub1611 joined the game
+[14:10:54] [Server thread/INFO]: nub1611 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:10:54] [Server thread/INFO]: nub1611 left the game
+[14:12:24] [Server thread/INFO]: nub1611[/127.0.0.1:52986] logged in with entity id 752188 at (76.5068655108779, 217.0, 11.888178617491363)
+[14:12:24] [Server thread/INFO]: nub1611 joined the game
+[14:12:51] [Server thread/INFO]: nub1611 lost connection: TranslatableComponent{key='disconnect.timeout', args=[], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:12:51] [Server thread/INFO]: nub1611 left the game
+[14:13:02] [Server thread/WARN]: Failed to handle packet for /127.0.0.1:52986
+net.minecraft.util.ReportedException: Ticking player
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:349) ~[mw.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147347_a(NetHandlerPlayServer.java:303) ~[nh.class:?]
+	at net.minecraft.network.play.client.C03PacketPlayer.func_148833_a(SourceFile:137) ~[jd.class:?]
+	at net.minecraft.network.play.client.C03PacketPlayer.func_148833_a(SourceFile:8) ~[jd.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212) ~[ej.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165) [nc.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) [MinecraftServer.class:?]
+	at fastcraft.u.a(F:289) [fastcraft-1.25.jar:?]
+	at fastcraft.H.aq(F:36) [fastcraft-1.25.jar:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:396) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+Caused by: java.lang.NullPointerException
+	at codechicken.nei.ExtendedCreativeInv.func_70301_a(ExtendedCreativeInv.java:27) ~[ExtendedCreativeInv.class:?]
+	at net.minecraft.inventory.Slot.func_75211_c(Slot.java:67) ~[aay.class:?]
+	at net.havencore.havencorepublic.ClosedSource.HavenCoreNetwork_HAVENCOREOBF_u9uAJBlnIk.HavenCoreNetwork_HAVENCOREOBF_ioQQKDpub4(EventsServer.java:308) ~[HavenCoreNetwork_HAVENCOREOBF_u9uAJBlnIk.class:?]
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_153_HavenCoreNetwork_HAVENCOREOBF_u9uAJBlnIk_HavenCoreNetwork_HAVENCOREOBF_ioQQKDpub4_PlayerOpenContainerEvent.invoke(.dynamic) ~[?:?]
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:54) ~[ASMEventHandler.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:140) ~[EventBus.class:?]
+	at net.minecraftforge.common.ForgeHooks.canInteractWith(ForgeHooks.java:436) ~[ForgeHooks.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:290) ~[yz.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:295) ~[mw.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147347_a(NetHandlerPlayServer.java:303) ~[nh.class:?]
+	at net.minecraft.network.play.client.C03PacketPlayer.func_148833_a(SourceFile:137) ~[jd.class:?]
+	at net.minecraft.network.play.client.C03PacketPlayer.func_148833_a(SourceFile:8) ~[jd.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212) ~[ej.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165) ~[nc.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659) ~[MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) ~[lt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) ~[MinecraftServer.class:?]
+	... 2 more
+[14:13:02] [Server thread/ERROR]: Encountered an unexpected exception
+net.minecraft.util.ReportedException: Ticking entity
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:642) ~[MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) ~[lt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) ~[MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:396) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+Caused by: java.lang.NullPointerException
+	at codechicken.nei.ExtendedCreativeInv.func_70301_a(ExtendedCreativeInv.java:27) ~[ExtendedCreativeInv.class:?]
+	at net.minecraft.inventory.Slot.func_75211_c(Slot.java:67) ~[aay.class:?]
+	at net.minecraft.inventory.Container.func_75142_b(SourceFile:77) ~[zs.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_70071_h_(EntityPlayerMP.java:212) ~[mw.class:?]
+	at net.minecraft.world.World.func_72866_a(World.java:2070) ~[ahb.class:?]
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:648) ~[mt.class:?]
+	at net.minecraft.world.World.func_72870_g(World.java:2034) ~[ahb.class:?]
+	at net.minecraft.world.World.func_72939_s(World.java:1887) ~[ahb.class:?]
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:489) ~[mt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:636) ~[MinecraftServer.class:?]
+	... 4 more
+[14:13:02] [Server thread/ERROR]: This crash report has been saved to: C:\Users\LENOVO\Music\server\.\crash-reports\crash-2024-08-31_14.13.02-server.txt
+[14:13:02] [Server thread/INFO]: Stopping server
+[14:13:02] [Server thread/INFO]: Saving players
+[14:13:03] [Server thread/INFO]: Saving worlds
+[14:13:03] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[14:13:04] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[14:13:04] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[14:13:04] [Server thread/INFO]: Saving chunks for level 'world'/Vegeta
+[14:13:04] [Server thread/INFO]: Saving chunks for level 'world'/Namek
+[14:13:04] [Server thread/INFO]: Saving chunks for level 'world'/Null Realm
+[14:13:04] [Server thread/INFO]: Saving chunks for level 'world'/TimeChamber
+[14:13:04] [Server thread/INFO]: Saving chunks for level 'world'/OtherWorld

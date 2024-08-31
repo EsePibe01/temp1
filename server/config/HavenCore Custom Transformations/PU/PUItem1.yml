@@ -1,0 +1,22 @@
+# Your item's name the player will see. It can contain color codes for colored names.
+DisplayName: 5 Puntos
+# Your item's lore (tooltip description), see the default values for examples to what can be used
+# Each '-' represents a new line.
+Lore: 
+- sube todas las stats en 5
+# An option to set if the player will receive different amount of stats in each stat. false by default.
+uniqueStatAmount: false
+# The amount of stat points the player will get for each stat type.
+StatAmount:
+    1 - Strength: 5
+    2 - Dexterity: 5
+    3 - Consitution: 5
+    4 - Willpower: 5
+    5 - Mind: 5
+    6 - Spirit: 5
+# The amount of stats to give the player. Only applies when UniqueStatAmount is set to false.
+Amount: 5
+# Whether the itme should be owned by a player or not. false by default.
+SoulBound: false
+# How many seconds should the item be unusable after use. Default value is 1 second.
+Cooldown: 1
